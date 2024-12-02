@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #8a2be2;
+  color: aliceblue;
+  font-family: "Poppins", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #620ab5;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: lavender;
+  font-size: 1.01;
+  text-decoration: underline;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.left {
+  font-size: 1.5rem;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  margin: -39px;
+}
+
+.right ul {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+
+.leftSection .buttons {
+  padding: 23px;
+}
+.leftSection .btn {
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.btn_download {
+  text-decoration: none;
+}
+
+.btn_download:hover {
+  color: red; 
+    text-decoration: underline;
+}
+
+.btn_download:visited {
+  color: white;
+}
+
+.rightSection img {
+  margin: 15px 0;
+}
+
+.purple {
+  color: rgb(38, 38, 201);
+}
+
+.text-gray {
+  color: #3d3551;
+}
+#element {
+  color: rgb(38, 38, 201);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .verticle {
+  height: 93px;
+  width: 1px;
+  background-color: rgb(197, 198, 196);
+  margin: 0 80px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 85px;
+  color: #3d3551;
+  width: 150px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #6b5bdb;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 10px;
+  justify-content: space-evenly;
+}
+
+.footer-first {
+  font-family: "Roboto Flex", sans-serif;
+  color: #FFFFFF;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer div {
+  width: 118px;
+}
+
+.footer_para {
+  width: 250px;
+}
+
+.footer_service {
+  text-decoration: none;
+  color: #D3D3D3;
+}
+
+.footer_profile {
+  text-decoration: none;
+  color: #FFD700;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: #1f1d1d;
+  padding: 12px 0;
+}
